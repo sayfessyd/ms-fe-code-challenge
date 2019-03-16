@@ -1,5 +1,15 @@
 #  Frontend Code Challenge
 
+Use the Twitter API to display three columns containing the last 30 tweets from [@MakeSchool](https://github.com/MakeSchool) , @newsycombinator and [@ycombinator](https://github.com/ycombinator).
+
+
+
+## Table of contents
+
+[TOC]
+
+## Screen-shot
+
 <img src="images/Screenshot.png" />
 
 ## Setup
