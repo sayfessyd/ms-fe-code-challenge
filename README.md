@@ -21,10 +21,10 @@ Start the static and proxy servers:
 
 This server will help you to get Twitter's API to send you tweets without you needing to do any authentication.  You don't need to modify server.js at all. 
 
-Run the frontend web application. 
+Run the frontend web application:
 
 `yarn dev`
 
-Run unit tests. 
+Run unit tests:
 
 `yarn test`
