@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.vue renders correctly 1`] = `
+<section class="hero is-small is-bold is-light">
+    <div class="hero-body">
+        <div class="container has-text-centered"><img src="../assets/Twitter_bird_icon.png" width="100px" alt="Twitter Logo">
+            <h1 class="title">Twitter API</h1>
+            <h2 class="subtitle">Last 30 tweets from @MakeSchool, @newsycombinator and @ycombinator</h2>
+        </div>
+    </div>
+    <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+            <div class="container has-text-centered">
+                <ul class="is-responsive">
+                    <li class="is-active">
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>A - B - C</option>
+                                    <option>A - C - B</option>
+                                    <option>B - A - C</option>
+                                    <option>B - C - A</option>
+                                    <option>C - A - B</option>
+                                    <option>C - B - A</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-sort-alpha-up"></i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>All Time</option>
+                                    <option>Last Day</option>
+                                    <option>Last Week</option>
+                                    <option>Last Month</option>
+                                    <option>Last Year</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-clock"></i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>90</option>
+                                    <option>80</option>
+                                    <option>60</option>
+                                    <option>40</option>
+                                    <option>20</option>
+                                    <option>5</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-file"></i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>Primary</option>
+                                    <option>Info</option>
+                                    <option>Light</option>
+                                    <option>Dark</option>
+                                    <option>Warning</option>
+                                    <option>Danger</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-palette"></i></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+`;
+
+exports[`Header.vue renders correctly after changing the title state 1`] = `
+<section class="hero is-small is-bold is-light">
+    <div class="hero-body">
+        <div class="container has-text-centered"><img src="../assets/Twitter_bird_icon.png" width="100px" alt="Twitter Logo">
+            <h1 class="title">Hello!</h1>
+            <h2 class="subtitle">Last 30 tweets from @MakeSchool, @newsycombinator and @ycombinator</h2>
+        </div>
+    </div>
+    <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+            <div class="container has-text-centered">
+                <ul class="is-responsive">
+                    <li class="is-active">
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>A - B - C</option>
+                                    <option>A - C - B</option>
+                                    <option>B - A - C</option>
+                                    <option>B - C - A</option>
+                                    <option>C - A - B</option>
+                                    <option>C - B - A</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-sort-alpha-up"></i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>All Time</option>
+                                    <option>Last Day</option>
+                                    <option>Last Week</option>
+                                    <option>Last Month</option>
+                                    <option>Last Year</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-clock"></i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>90</option>
+                                    <option>80</option>
+                                    <option>60</option>
+                                    <option>40</option>
+                                    <option>20</option>
+                                    <option>5</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-file"></i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="control has-icons-left">
+                            <div class="select is-small is-rounded"><select>
+                                    <option>Primary</option>
+                                    <option>Info</option>
+                                    <option>Light</option>
+                                    <option>Dark</option>
+                                    <option>Warning</option>
+                                    <option>Danger</option>
+                                </select></div> <span class="icon is-small is-left"><i class="fas fa-palette"></i></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+`;
